@@ -26,7 +26,7 @@ background-color: #334;
 border-color: #667;
 }
 
-nav{
+header nav{
     color: #455;
     background-color: #789;
     border-color:#667 ;
@@ -38,30 +38,30 @@ background-color: #edc;
 border-color: #667;
 }
 
-nav>ul{
+header nav ul{
 border-color: #99a;
 }
 
-nav a:link,nav a:visited{
+header nav a:link,nav a:visited{
     color: #eef;
     background-color: transparent;
     border-color: #99a;
 }
 
-nav a:hover{
+header nav a:hover{
     color: #445;
     background-color: #eb6;
 }
 
-nav a:active{
+header nav a:active{
     color: #667;
     background-color: #ec8;
 }
 
-nav a.here:link,
-nav a.here:visited,
-nav a.here:hover,
-nav a.here:active{
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
     color: #eef;
     background-color: #799;
 }

@@ -65,6 +65,13 @@ function moveElement(elementID,final_x,final_y,interval) {
 
 
     var slideshow = document.createElement("div")
+    var frame = document.createElement("img") 
+    frame.setAttribute("src","images/frame.gif")
+    frame.setAttribute("alt","")
+    frame.setAttribute("id","frame")
+    slideshow.appendChild(frame)
+
+
     slideshow.setAttribute("id","slideshow")
     var preview = document.createElement("img")
     preview.setAttribute("src","images/slideshow.gif")
@@ -74,7 +81,7 @@ function moveElement(elementID,final_x,final_y,interval) {
     insertAfter(slideshow,intro)
 
 
-    var links = intro.getElementsByTagName("a");
+    var links = document.getElementsByTagName("a");
     for(var i=0;i<links.length;i++){
         links[i].onmouseover = function(){
             console.log(i)

@@ -22,7 +22,7 @@ header {
     border-bottom-width: 0;
 }
 
-nav {
+header nav {
     background-image: url(../images/navbar.gif);
     background-position: bottom left;
     background-repeat: repeat-x;
@@ -33,18 +33,18 @@ nav {
     padding-left: 10%;
 }
 
-nav ul {
+header nav ul {
     width: 100%;
     overflow:hidden; 
     border-left-width: .1em;
     border-left-style: solid;
 }
 
-nav li {
+header nav li {
     display: inline;
 }
 
-nav li a{
+header nav li a{
     display: block;
     float: left;
     padding:.5em 2em;
@@ -84,4 +84,11 @@ article {
 
 #preview {
     position: absolute;
+}
+
+#frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
 }
