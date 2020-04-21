@@ -12,7 +12,7 @@ function prepareSlideshow(){
     preview.setAttribute("id","preview")
     slideshow.appendChild(preview)
     //relative+absolute == 容器absolute
-    preview.style.position = "absolute";
+
     var list = document.getElementById("linklist")
     insertAfter(slideshow,list)
 
