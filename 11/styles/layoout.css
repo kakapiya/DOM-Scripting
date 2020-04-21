@@ -96,3 +96,45 @@ article {
 #imagegallery li {
     display: inline;
 }
+
+td {
+    padding: .5em 3em;
+
+}
+
+th {
+    color: #edc;
+    background-color: #455;
+}
+
+tr td {
+    color:#223;
+    background-color: #eb6;
+}
+
+dl {
+    overflow: hidden;
+}
+dt {
+    float: left;
+}
+dd {
+    float: left;
+}
+
+tr.odd td{
+    color: #223;
+    background-color: #ec8;
+}
+
+tr.highlight td {
+    color: #223;
+    background-color: #cba;
+}
+
+label {
+    display: block;    
+}
+fieldset {
+    border: 0;
+}

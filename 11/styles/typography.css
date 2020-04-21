@@ -46,3 +46,10 @@ h3 {
     margin-top: 1em;
 
 }
+
+dt {
+    margin-right: 1em;
+}
+dd {
+    margin-right: 3em;
+}

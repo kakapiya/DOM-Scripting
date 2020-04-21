@@ -33,9 +33,9 @@ function addClass(element, value) {
 
     } else {
         newClassName = element.className;
-        newClassName += " "
-        newClassName += value;
-        element.clasName = newClassName;
+        newClassName+= " "
+        newClassName+= value;
+        element.className = newClassName;
     }
 }
 
