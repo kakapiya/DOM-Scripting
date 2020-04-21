@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jay Skript And the Domsters</title>
+    <link rel="stylesheet" href="styles/basic.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.gif" alt="Jay Skript and the Domsters">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="photos.html">Photo</a></li>
+                <li><a href="live.html">Live</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <h1>Contact the band</h1>
+        <!-- target 属性规定在何处打开 action URL -->
+        <!-- target配合iframe 将其设为 target="test" 防止页面刷新-->
+        <form method="post"  action="submit.html">
+            <fieldset>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" class="required" />
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your email address"
+                        class="email required" />
+                </p>
+                <p>
+                    <label for="message">Message:</label>
+                    <textarea cols="45" rows="7" id="message" name="message"
+                        placeholder="Write your message here."></textarea>
+                </p>
+                <input type="submit" value="Send" />
+            </fieldset>
+        </form>
+        <!-- 记得删去，此处为submit提交测试 -->
+        <!-- <iframe name="test" style="display:none"></iframe> -->
+    </article>
+</body>
+<script src="./scripts/global.js"></script>
+<script src="./scripts/contact.js"></script>
+
+</html>

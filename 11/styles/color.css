@@ -1,0 +1,78 @@
+body {
+    color: #fb5;
+    background-color: #334;
+}
+
+a:link {
+    color: #445;
+    background-color: #eb6;
+}
+a:visited{
+    color: #345;
+    background-color: #eb6;
+}
+a:hover{
+    color: #667;
+    background-color: #fb5;
+}
+a :active{
+    color: #778;
+    background-color: #ec8;
+}
+
+header{
+color: #778;
+background-color: #334;
+border-color: #667;
+}
+
+header nav{
+    color: #455;
+    background-color: #789;
+    border-color:#667 ;
+}
+
+article{
+color: #223;
+background-color: #edc;
+border-color: #667;
+}
+
+header nav ul{
+border-color: #99a;
+}
+
+header nav a:link,nav a:visited{
+    color: #eef;
+    background-color: transparent;
+    border-color: #99a;
+}
+
+header nav a:hover{
+    color: #445;
+    background-color: #eb6;
+}
+
+header nav a:active{
+    color: #667;
+    background-color: #ec8;
+}
+
+header nav a.here:link,
+header nav a.here:visited,
+header nav a.here:hover,
+header nav a.here:active{
+    color: #eef;
+    background-color: #799;
+}
+
+
+
+input:focus {outline: none; }
+input:focus::-webkit-input-placeholder {text-indent: 100%; opacity: 0; -webkit-transition: .4s; transition: .4s; }
+input:focus::-moz-placeholder {text-indent: 100%; opacity: 0; -moz-transition: .4s; }
+input:focus:-ms-input-placeholder {text-indent: 100%; opacity: 0; -webkit-transition: .4s; transition: .4s; }
+textarea:focus {outline: none; }
+textarea:focus::-webkit-input-placeholder {text-indent: 100%; opacity: 0; -webkit-transition: .4s; transition: .4s; }
+textarea:focus::-moz-placeholder {text-indent: 100%; opacity: 0; -moz-transition: .4s; }
+textarea:focus:-ms-input-placeholder {text-indent: 100%; opacity: 0; -webkit-transition: .4s; transition: .4s; }
